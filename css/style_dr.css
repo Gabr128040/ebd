@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Righteous&family=Sarala&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(243.18deg, #6D4545 0%, #110505 100%);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.header-logo {
+    width:30%;
+}
+
+.nav {
+    display: flex;
+    gap: 69px;
+}
+
+.nav-item {
+    color: beige;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Sarala',sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    border-top: 0.4px solid beige;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+    gap: 239px;
+       
+}
+
+.main-imagem_revista {
+    width: 35%
+
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+
+}
+
+.conteudo-principal-titulo {
+    width: 20%;
+    color: white;
+    font-size: 70px;
+    line-height: 58px;
+    font-family: 'Righteous';
+    font-weight: 600;
+
+
+}
+
+.conteudo-principal-paragrafo {
+    width: 350px;
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 92.67%;
+    color: white;
+    
+}
+
+.conteudo-principal-botao {
+    background-color: bisque;
+    border: none;
+    border-radius: 10px;
+    width: 25%;
+    height: 50px;
+    font-family:'Sarala',sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.25);
+    color: #2f2325;
+}
+
+.conteudo-principal-botao-ancora {
+    text-decoration: none;
+    color: #2f2325;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top:0.4px solid beige ;
+    padding: 10px;
+
+}
+
+.footer-logo {
+    width: 10%;
+    display: block
+    
+}

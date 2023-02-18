@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Righteous&family=Sarala&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(243.18deg, #6D4545 0%, #110505 100%);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.header-logo {
+    width:30%;
+}
+
+.nav {
+    display: flex;
+    gap: 69px;
+}
+
+.nav-item {
+    color: beige;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Sarala',sans-serif;
+}
+
+.main {
+    border-top: 0.4px solid beige;
+    border-color: beige;
+    
+    
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    gap: 18px;
+
+}
+
+.conteudo-principal-escrito-titulo {
+    color: beige;
+    font-size: 62px;
+    font-family: 'Righteous', cursive;
+    padding: 0px;
+    width: 60px;
+    line-height: 60px;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    color: beige;
+    font-size: 30px;
+    margin: 0px;
+    font-family: 'Sarala',sans-serif;
+    font-weight: 300;
+
+}
+
+.conteudo-principal-imagem {
+    width: 30%;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: bisque;
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+    height: 50px;
+    font-family:'Sarala',sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.25);
+    color: #2f2325;
+    
+}
+
+.botao-entrarnogrupo {
+    text-decoration: none;
+    color:#2f2325 ;
+}
+
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid beige;
+    color: beige;
+    font-size: 28px;
+    font-family: 'Sarala', sans-serif;
+}
+
+.conteudo-secundario-paragrafo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    text-align: center;
+    color: beige;
+    font-size: 13px;
+    font-family: 'Sarala',sas-serif ;
+    margin-bottom:24px ;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top:0.4px solid beige ;
+    padding: 10px;
+
+}
+
+.footer-logo {
+    width: 10%;
+    display: block
+    
+}

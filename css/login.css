@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Righteous&family=Sarala&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(243.18deg, #6D4545 0%, #110505 100%);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.header-logo {
+    width:30%;
+}
+
+.nav {
+    display: flex;
+    gap: 69px;
+}
+
+.nav-item {
+    color: beige;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Sarala',sans-serif;
+}
+
+.main {
+    border-top: 0.4px solid beige;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.form-login {
+    padding: 65px;
+    background: rgba(0, 0, 0, 0.73);
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+
+}
+
+.form-titulo {
+    color: white;
+    font-family: 'Sarala';
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.form-input-nome {
+    border: none;
+    background-color: white;
+    padding: 8px 16px;
+    gap: 8px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Sarala';
+
+}
+
+.form-input-senha {
+    border: none;
+    background-color: white;
+    padding: 8px 16px;
+    gap: 8px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Sarala';
+}
+
+.form-botao-submit {
+    background-color: #AF1414;
+    padding: 8px 16px;
+    gap: 8px;
+    font-size: 18px;
+    border-radius: 8px;
+    width: 100%;
+    font-family: 'Sarala';
+    color: white;
+}
+
+.main-imagem_xicara {
+    width: 35%;
+}
+
+.footer {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top:0.4px solid beige ;
+    padding: 10px;
+
+}
+
+.footer-logo {
+    width: 10%;
+    display: block
+    
+}
