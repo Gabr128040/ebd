@@ -122,7 +122,7 @@ body {
 }
 
 .downloads-botao {
-    background-color: bisque;
+    background-color: rgb(3, 255, 24);
     border: none;
     border-radius: 10px;
     width: 40%;
@@ -136,7 +136,7 @@ body {
 
 .conteudo-principal-botao-ancora {
     text-decoration: none;
-    color: #2f2325;
+    color: #dd1637;
 }
 
 .footer {
