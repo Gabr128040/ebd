@@ -6,19 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>EBD</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
 
     <header class="header">
         <a href="index.html"><img class="header-logo" src="./imagens/ebd site.png" alt="logo ebd"></a>
+        <span onclick="menu()" id="header-menu"class="material-icons">menu</span>
+        
         <nav class="nav">
-            <a class="nav-item" href="download-revista.html">Revista</a>
-            <a class="nav-item" href="biblioteca.html">Biblioteca</a>
-            <a class="nav-item" href="professor.html">Professor</a>
-            <a class="nav-item" href="aluno.html">Aluno</a>
-            <a class="nav-item" href="cronograma.html">Cronograma</a>
-            <a class="nav-item" href="login.html">Login</a>
+        		    <ul class="nav-ul">
+            						<li><a class="nav-item" href="download-revista.html">Revista</a></li>
+            						<li><a class="nav-item" href="biblioteca.html">Biblioteca</a></li>
+            						<li><a class="nav-item" href="professor.html">Professor</a></li>
+            						<li><a class="nav-item" href="aluno.html">Aluno</a></li>
+            						<li><a class="nav-item" href="cronograma.html">Cronograma</a></li>
+            						<li><a class="nav-item" href="login.html">Login</a></li>
+            		</ul>
         </nav>
+       
     </header>
     <main class="main">
         <section class="conteudo-principal">
@@ -38,5 +45,6 @@
     <footer class="footer">
         <img class="footer-logo" src="./imagens/ebd site.png" alt="">
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
