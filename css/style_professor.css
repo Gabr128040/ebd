@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background: #Ffcb65;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  background:none;
+  width: calc(100% - 20px);    
+  justify-content: space-between;    
+  margin:10px;
+  border-radius: 10px;
+  border: 2px solid #7a321f;
+}
+
+.header-logo {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: black;
+  font-size: 25px;
+}
+
+#header-menu {
+	color: beige;
+}
+
+.nav {
+  display: none;
+  position: absolute;
+  right: 0%;
+  width: 100%;
+  top: 60px;
+  padding-left: 20px;
+  background: #3c1e0f;
+  border-top: 1px solid beige;
+}
+
+.nav-ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  height: 100vh;
+}
+
+
+.nav-item {
+  display: block;
+  color: beige;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: 'Sarala',sans-serif; 
+  /*  border-bottom:0.4px solid beige ;   /*  */
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  padding-top: 120px;
+  min-width: 320px;
+  height: 100vh;
+}
+
+
+.proxima_aula {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  gap:6px;
+  width: 80%;	
+}
+
+.pa-titulo {
+  font-size: 7px;
+  color: #763c00;
+  font-family: 'Poppins', sans-serif;
+}
+
+.pa-subtitulo {
+  font-size: 21px;
+  color: #763c00;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.pa-painel {
+  border: 1px solid black;
+  width: 100%;
+  height: 120px;
+}

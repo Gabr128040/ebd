@@ -7,10 +7,13 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    
 }
 
 body {
     background: linear-gradient(243.18deg, #6D4545 0%, #110505 100%);
+    
+    
 }
 
 .header {
