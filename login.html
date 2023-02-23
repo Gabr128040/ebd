@@ -5,31 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/login.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>EBD | Login</title>
 </head>
 <body>
     <header class="header">
         <a href="index.html"><img class="header-logo" src="./imagens/ebd site.png" alt="logo ebd"></a>
+        <span onclick="menu()" id="header-menu"class="material-icons">menu</span>
+        
         <nav class="nav">
-            <a class="nav-item" href="download-revista.html">Revista</a>
-            <a class="nav-item" href="biblioteca.html">Biblioteca</a>
-            <a class="nav-item" href="professor.html">Professor</a>
-            <a class="nav-item" href="aluno.html">Aluno</a>
-            <a class="nav-item" href="cronograma.html">Cronograma</a>
-            <a class="nav-item" href="login.html">Login</a>
+        		    <ul class="nav-ul">
+            						<li><a class="nav-item" href="download-revista.html">Revista</a></li>
+            						<li><a class="nav-item" href="biblioteca.html">Biblioteca</a></li>
+            						<li><a class="nav-item" href="professor.html">Professor</a></li>
+            						<li><a class="nav-item" href="aluno.html">Aluno</a></li>
+            						<li><a class="nav-item" href="cronograma.html">Cronograma</a></li>
+            						<li><a class="nav-item" href="login.html">Login</a></li>
+            		</ul>
         </nav>
+       
     </header>
     <main class="main">
         <form class="form-login" action="">
-            <h1 class="form-titulo">Login:</h1>
-            <input class="form-input-nome" type="text" id="Nome:" placeholder="Nome">
+            <h1 class="form-titulo">Login</h1>
+            <input class="form-input-nome" type="text" id="Nome:" placeholder="Nome:">
             <input class="form-input-senha" type="password" placeholder="Senha:">
             <button class="form-botao-submit" type="submit">Entrar</button>
         </form>
-        <img class="main-imagem_xicara" src="./imagens/xicaracafe.png" alt="">
     </main>
     <footer class="footer">
         <img class="footer-logo" src="./imagens/ebd site.png" alt="">
     </footer>
+    <script src="./js/script_login.js"></script>
 </body>
 </html>

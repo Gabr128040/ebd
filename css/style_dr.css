@@ -17,83 +17,135 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
     padding: 10px;
+    position: fixed;
+    background: #3c1e0f;
+    width: 100%;
+    justify-content: space-around;
+    
+    
+    
 
 }
 
 .header-logo {
     width:30%;
+    
+    
+}
+
+#header-menu {
+				color: beige;
 }
 
 .nav {
-    display: flex;
-    gap: 69px;
+				display: none;
+				position: absolute;
+				right: 0%;
+				width: 100%;
+		    top: 60px;
+		    padding-left: 20px;
+		    background: #3c1e0f;
+		    border-top: 1px solid beige;
 }
 
-.nav-item {
-    color: beige;
-    font-size: 18px;
-    font-weight: 400;
-    font-family: 'Sarala',sans-serif;
+.nav-ul {
+				display: flex;
+				flex-direction: column;
+				list-style: none;
+				height: 100vh;
 }
+
+
+.nav-item {
+    display: block;
+    color: beige;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Sarala',sans-serif; 
+    /*  border-bottom:0.4px solid beige ;   /*  */
+}
+
 
 .main {
     display: flex;
-    flex-direction: row;
-    border-top: 0.4px solid beige;
-    justify-content: space-around;
+    flex-direction: column;
+    border-top: 0.4px solid beige;        
+    min-width: 320px;
     align-items: center;
-    padding: 100px;
-    gap: 239px;
-       
-}
-
-.main-imagem_revista {
-    width: 35%
-
+    padding-top: 45px;
+    height: 100vh;
 }
 
 .conteudo-principal {
     display: flex;
     flex-direction: column;
-    gap: 28px;
+    align-items: center;
+    padding: 25px;
+    gap: 25px;
 
 }
 
 .conteudo-principal-titulo {
-    width: 20%;
     color: white;
-    font-size: 70px;
+    font-size: 50px;
     line-height: 58px;
     font-family: 'Righteous';
     font-weight: 600;
+    text-align: center;
+    
 
 
 }
 
 .conteudo-principal-paragrafo {
-    width: 350px;
     font-family: 'Sarala';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 92.67%;
     color: white;
-    
+    text-align: center;
 }
 
-.conteudo-principal-botao {
+.section-downloads {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: space-around;
+					
+				
+}
+
+.down-revista {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				height: 40%;
+				padding: 20px;
+				background: #a86146;
+				border-radius: 14px;
+				justify-content: space-around;
+				gap:15px;
+				padding: 30px;
+}
+
+.downloads-titulo {
+				color: beige;
+}
+
+.downloads-botao {
     background-color: bisque;
     border: none;
     border-radius: 10px;
-    width: 25%;
+    width: 40%;
     height: 50px;
     font-family:'Sarala',sans-serif;
     font-weight: 600;
     font-size: 18px;
     box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.25);
     color: #2f2325;
+    padding: 8px;
 }
 
 .conteudo-principal-botao-ancora {
@@ -107,6 +159,7 @@ body {
     align-items: center;
     border-top:0.4px solid beige ;
     padding: 10px;
+    margin-top: 30px;
 
 }
 
